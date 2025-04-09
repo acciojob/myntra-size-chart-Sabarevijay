@@ -1,2 +1,29 @@
 
 /* Your CSS Code here. */
+ table {
+      border-collapse: collapse;
+      width: 70%;
+      margin: 30px auto;
+      text-align: center;
+    }
+    thead th {
+      background-color: #a94442;
+      color: white;
+      padding: 10px;
+    }
+    tbody td, tbody th {
+      border: 1px solid black;
+      padding: 8px;
+    }
+    tbody tr:nth-child(1) {
+      background-color: #e6b8b7; /* Waist row */
+    }
+    tbody tr:nth-child(2) {
+      background-color: #e6d0d0; /* Chest row */
+    }
+    tbody tr:nth-child(3) {
+      background-color: #e6e6e6; /* Sleeve row */
+    }
+    th {
+      text-align: left;
+    }
